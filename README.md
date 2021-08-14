@@ -7,7 +7,7 @@
   
 const char users[3]={"Store Keeper","Manager","Maintenance Engineer"}; //types of users
 	
-class aircrafts_Management{
+class aircrafts_Management_system{
 public:		
   storeKepper_activities(struct product p)
   {
