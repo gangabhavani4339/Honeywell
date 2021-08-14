@@ -75,7 +75,7 @@ public:
     cout<<"Done!";
 }
 
-  void delete_Product(struct Product p)
+void delete_Product(struct Product p)
 {
     fstream exa;
     fstream temp;
