@@ -6,14 +6,13 @@
 #include<stdio.h>
   
 const char users[3]={"Store Keeper","Manager","Maintenance Engineer"}; //types of users
-class passenger{
+class aircrafts_Management{
 public:		
-		storeKepper_activities(struct product p)
-		{
-			update_Product(p);
-      delete product(p);
-  
-		}  
+  storeKepper_activities(struct product p)
+  {
+	update_Product(p);
+        delete product(p);
+  }  
   Manger_activities(struct product p, struct itemcode c)
   {
     seacrch_Poduct(p,c);
