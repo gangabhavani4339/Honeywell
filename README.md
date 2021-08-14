@@ -14,7 +14,7 @@ public:
 	update_Product(p);
         delete product(p);
   }  
-  Manger_activities(struct product p, struct itemcode c)
+  Manager_activities(struct product p, struct itemcode c)
   {
     seacrch_Poduct(p,c);
   }
@@ -158,5 +158,5 @@ int main()
     struct product p;
     strcut itemcode c;
     storeKepper_activities(p);
-    Manger_activities(p,c);
+    Manager_activities(p,c);
   }
