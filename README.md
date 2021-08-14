@@ -6,6 +6,7 @@
 #include<stdio.h>
   
 const char users[3]={"Store Keeper","Manager","Maintenance Engineer"}; //types of users
+	
 class aircrafts_Management{
 public:		
   storeKepper_activities(struct product p)
