@@ -146,7 +146,7 @@ search_Product(struct product p, struct itemcode c)
         }
         else
         {
-                cout<<"\n product is"<<product<<;
+                cout<<"\n product is found"<<product<<;
         }
         return 0;
 }     
